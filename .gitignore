@@ -1,3 +1,39 @@
-oldCodes/
-miscellanous/
+# Environment variables & secrets (NEVER commit these!)
 keys.env
+.env
+*.env
+*.key
+*.token
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp output
+*.log
+scratch/
+stats.db
+data/
+*.db
+
+# Docker image exports (contain baked-in secrets)
+*.tar
+*.tar.gz

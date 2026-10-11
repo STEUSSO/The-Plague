@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# Python Virtual Environments & Cache
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database & Persistent storage (kept outside container via volume)
+data/
+stats.db
+*.db
+
+# Docker & Archive artifacts
+Dockerfile*
+docker-compose*.yml
+*.tar
+*.tar.gz
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temp & docs
+scratch/
+*.log
+README.md
+LICENSE
